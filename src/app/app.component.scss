@@ -1,0 +1,87 @@
+.main_h{
+    position: fixed;
+    top: 0px;
+    min-height: 70px;
+    z-index: 999;
+    width: 100%;
+    padding-top: 17px;
+    background: none;
+    overflow: hidden;
+    transition: all 0.3s;
+    opacity: 0;
+    top: -100px;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sticky{
+    background-color: rgba(255,255,255,0.93);
+    opacity: 1;
+    top: 0px;
+    border-bottom: 1px solid gainsboro;
+}
+.logo{
+    width: 50px;
+    font-size: 25px;
+    color: #333;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10;
+    font-weight: 400;
+}
+
+nav{
+    float: right;
+    width: 59%;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    float: right;
+    margin-top: -3px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 1.5;
+}
+nav ul li a {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.mobile-toggle{
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 30px;
+    transition: all 200ms ease-in;
+}
+.mobile-toggle span{
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+    border-radius: 1000px;
+    background-color: #8f8f8f;
+    display: block;
+}
+.row{
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%;
+}
+.hero{
+    position: relative;
+    background: url('../assets/images/hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
